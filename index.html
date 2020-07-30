@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <title>Birthday Gift - Onthatile</title>
+        
+        <!-- Link CSS Style.css file-->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        <div class='moon'>
+            <div class='crater1'></div>
+            <div class='crater2'></div>
+            <div class='crater3'></div>
+        </div>
+        
+        <canvas id="canvas"></canvas>
+        
+        <div id="sea"></div>
+        <div id="beach"></div>
+        
+        <img src="https://dl.dropbox.com/s/2k0mtrxc2dqurmh/jumping.png" alt="Jumping-people" id="people" />
+        
+        <div id="merrywrap" class="merrywrap">
+            <div class="giftbox">
+                <div class="cover">
+                    <div></div>
+                </div>
+                
+                <div class="box"></div>
+            </div>
+            
+            <div class="icons">
+                <div class="row">
+                    <span>H</span>
+                    <span>a</span>
+                    <span>p</span>
+                    <span>p</span>
+                    <span>y</span>
+                    
+                </div>
+                <div class="row">
+                    <span>B</span>
+                    <span>i</span>
+                    <span>r</span>
+                    <span>t</span>
+                    <span>h</span>
+                    <span>d</span>
+                    <span>a</span>
+                    <span>y</span>
+                </div>
+                
+                <div class="row">
+                    <span>O</span>
+                    <span>n</span>
+                    <span>t</span>
+                    <span>h</span>
+                    <span>a</span>
+                    <span>t</span>
+                    <span>i</span>
+                    <span>l</span>
+                    <span>e</span>
+                    
+                </div>
+            </div>
+			
+			
+			
+			
+			
+        </div>
+        
+        
+        
+		
+		<div class="swiper-container" style="z-index: 1">
+			<div class="swiper-wrapper" style="z-index: 2">
+				  <div class="swiper-slide"><img src="imags/img1.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img2.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img3.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img4.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img5.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img6.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img7.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img8.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img9.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img10.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img11.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img12.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img13.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img14.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img15.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img16.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img17.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img18.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img19.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img20.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img21.jpg"></div>
+				  <div class="swiper-slide"><img src="imags/img1.png"></div>
+				  <div class="swiper-slide"><img src="imags/img2.png"></div>
+				  <div class="swiper-slide"><img src="imags/img3.png"></div>
+				  <div class="swiper-slide"><img src="imags/img4.png"></div>
+				 
+				  
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+			</div>
+		
+		<div id="video" style="z-index: 3"></div>
+        
+        <script src="js/index.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+			var swiper = new Swiper('.swiper-container', {
+			  effect: 'coverflow',
+			  grabCursor: true,
+			  centeredSlides: true,
+			  loop: true,
+			  slidesPerView: 'auto',
+			  coverflowEffect: {
+				rotate: 20,
+				stretch: 0,
+				depth: 200,
+				modifier: 1,
+				slideShadows: true,
+			  },
+			  autoplay: {
+				delay: 2500,
+				disableOnInteraction: false,
+			  },
+			});
+	  </script>
+		
+		
+		
+    </body>
+</html>
